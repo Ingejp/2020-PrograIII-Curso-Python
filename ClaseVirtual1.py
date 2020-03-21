@@ -7,3 +7,8 @@ def sumar():
 
 print('el resultado es => ' + str(sumar()))
 
+def sumar(primerNumero, segundoAlumno):
+    resultadoDeOperacion= primerNumero + segundoAlumno
+    return resultadoDeOperacion
+print(' metodo con parametros :) ==> ' + str(sumar(100,100)))
+
